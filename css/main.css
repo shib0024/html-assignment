@@ -1,0 +1,46 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+header, footer {
+    background-color: blueviolet;
+}
+.site-title {
+    color: white;
+}
+
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+}
+
+
+/* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+
+a:link, :visited {
+    background-color: blue;
+    color: aliceblue;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
